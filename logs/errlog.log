@@ -1,0 +1,7 @@
+2023-04-01	  75a7dee5-7bfb-4edc-8319-df35a382e295	TypeError : User.findOne(...).lean.exec is not a function	POST	/auth/register	undefined
+2023-04-01	  6eba3315-5864-4bba-bfb3-d73f93609716	ValidationError : User validation failed: lastName: Path `lastName` is required.	POST	/auth/register	undefined
+2023-04-01	  dad5c23b-b9de-4071-998c-7d7d00e9f0c5	MongoServerError : E11000 duplicate key error collection: test.users index: phone_1 dup key: { phone: "9861886603" }	POST	/auth/register	undefined
+2023-04-01	  7c766ebe-4ea0-493a-a3d8-54505941727b	undefined : undefined	POST	/auth/authenticate	undefined
+2023-04-01	  32da2941-3991-4ec0-8e89-e5a4cc5eb9fc	TypeError : Cannot read properties of undefined (reading 'split')	GET	/hello	undefined
+2023-04-02	  660a4c8b-dabb-4651-b3ce-76395c24e2bc	ReferenceError : Cannot access 'newUser' before initialization	POST	/auth/register	undefined
+2023-04-02	  88d1ba02-18c6-4782-8fba-ccb0f77f64e5	ValidationError : ProfileInfo validation failed: municipality: Path `municipality` is required., city: Path `city` is required., tempAddress: Path `tempAddress` is required., permanentAddress: Path `permanentAddress` is required.	POST	/auth/register	undefined
